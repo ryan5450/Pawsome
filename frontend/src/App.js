@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <h1>ECOMERCE</h1>
-  )
+    <>
+      <Header/>
+        <main>
+          <Container>
+            <h1>Welcome to Pawsome Shop</h1>
+          </Container>
+        </main>
+    </>
+
+  );
 }
 
 export default App
